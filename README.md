@@ -8,3 +8,12 @@
 - [Question 4b](tutorial02/q4b.scala)
 
 ## Tutorial 03
+- [Question 1](tutorial03/q1.scala)
+- [Question 2](tutorial03/q2.scala)
+- [Question 3](tutorial03/q3.scala)
+- [Question 4](tutorial03/q4.scala)
+- [Question 5](tutorial03/q5.scala)
+- [Question 6](tutorial03/q6.scala)
+- [Question 7](tutorial03/q7.scala)
+- [Question 8](tutorial03/q8.scala)
+- [Question 9](tutorial03/q9.scala)
