@@ -8,11 +8,11 @@ object Q4B extends App {
     if x = 20, y = 100
 
     Therefore, y = -4x + 180
+    When y is 0, x = 45;
+    0 <= x <= 45
 
     Profit = x * y - 500 - y * 3
            = x * (-4x + 180) - 500 - (-4x + 180) * 3
-
-    Maxima of function: 1264 when x = 24
    */
 
   def attendance(price: Double): Double =
@@ -23,5 +23,16 @@ object Q4B extends App {
     return price * attended - 500 - attended * 3;
   }
 
-  println(profit(24));
+  def bestPrice(price: Double, maxPrice: Double): Double = {
+    var bPrice, i = 0.00;
+    while (i <= maxPrice) {
+      bPrice = if (profit(bPrice) > profit(i)) bPrice else i;
+      i += 0.25;
+    }
+    return bPrice;
+  }
+
+  val price = bestPrice(0, 45);
+  println("Best Price: " + price);
+  println("Maximum Profit: " + profit(price));
 }
