@@ -24,12 +24,10 @@ object Q4B extends App {
   }
 
   def bestPrice(price: Double, maxPrice: Double): Double = {
-    var bPrice, i = 0.00;
-    while (i <= maxPrice) {
-      bPrice = if (profit(bPrice) > profit(i)) bPrice else i;
-      i += 0.25;
-    }
-    return bPrice;
+    if (price <= maxPrice) {
+      val bestAbove: Double = bestPrice(price + 0.25, maxPrice);
+      if (profit(bestAbove) > profit(price)) bestAbove else price;
+    } else price;
   }
 
   val price = bestPrice(0, 45);
