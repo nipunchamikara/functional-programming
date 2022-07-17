@@ -1,13 +1,14 @@
-def isOdd(num: Int): Boolean = (num % 2 == 1)
+def discountedPrice(price: Double, discount: Double): Double =
+  price * (1 - discount / 100.00);
 
-def isOddOrEven(num: Int): Unit = {
-  if (isOdd(num))
-    println(num.toString() + " is odd.")
-  else
-    println(num.toString() + " is even.")
+def shippingCost(copies: Int): Double = (copies <= 50) match {
+  case true => 3 * 50;
+  case false => 3 * 50 + (copies - 50) * 0.75;
 }
 
-@main def Q4() = {
-  isOddOrEven(5);
-  isOddOrEven(8);
+def wholesaleCost(coverPrice: Double, copies: Int): Double =
+  copies * discountedPrice(coverPrice, 40) + shippingCost(copies); 
+
+@main def q4() = {
+  println(wholesaleCost(24.95, 60));
 }

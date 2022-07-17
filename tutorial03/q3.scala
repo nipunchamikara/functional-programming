@@ -1,10 +1,6 @@
-def largest(num1: Int, num2: Int, num3: Int): Int = {
-  if (num1 > num2)
-    if (num1 > num3) num1 else num3
-  else
-    if (num2 > num3) num2 else num3
-}
+def volumeOfSphere(radius: Double): Double = 
+  4 * math.Pi * math.pow(radius, 3) / 3.00;
 
-@main def Q3() = {
-  println(largest(8, 2, 10));
+@main def q4() = {
+  println(volumeOfSphere(5));
 }

@@ -1,5 +1,6 @@
-@main def Q1() = {
-  var absVal: Int = 100; 
-  absVal = if (absVal < 0) -absVal else absVal;
-  println(absVal);
+def areaOfDisk(radius: Double): Double = 
+  math.Pi * math.pow(radius, 2);
+
+@main def q1() = {
+  println(areaOfDisk(5));
 }

@@ -1,38 +1,10 @@
-/* 
-  Expected output:
-  a)
-    ###
-    ===
-  b)
-    ###
-    ===
-  c)
-    ===
-  d)
-    ===
- */
+def easyPaceTime(km: Double): Double =
+  8 * km;
 
-def print(a: Int, b: Int): Unit = {
-  if (a == 1)
-    if (b == 1)
-      println("***")
-  else
-    println("####")
-  println("===")
+def tempoTime(km: Double): Double = 
+  7 * km;
 
-  println("");
-}
-
-@main def Q5() = {
-  // a)
-  print(1, 2);
-
-  // b)
-  print(1, 3);
-
-  // c)
-  print(2, 3);
-
-  // d)
-  print(2, 2);
+@main def q5() = {
+  val totalTime = easyPaceTime(2) + tempoTime(3) + easyPaceTime(2);
+  println(totalTime);
 }
