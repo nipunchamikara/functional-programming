@@ -24,3 +24,12 @@ W. D. N. C. Weerasiri - 20002033
 - [Question 3](tutorial04/q3.scala)
 - [Question 4](tutorial04/q4.scala)
 - [Question 5](tutorial04/q5.scala)
+
+## Tutorial 05
+
+- [Question 1](tutorial05/q1.scala)
+- [Question 2](tutorial05/q2.scala)
+- [Question 3](tutorial05/q3.scala)
+- [Question 4](tutorial05/q4.scala)
+- [Question 5](tutorial05/q5.scala)
+- [Question 6](tutorial05/q6.scala)
