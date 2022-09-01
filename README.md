@@ -33,3 +33,7 @@ W. D. N. C. Weerasiri - 20002033
 - [Question 4](tutorial05/q4.scala)
 - [Question 5](tutorial05/q5.scala)
 - [Question 6](tutorial05/q6.scala)
+
+## Tutorial 06
+
+- [Caesar Cipher](tutorial06/caesar.scala)
