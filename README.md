@@ -37,3 +37,9 @@ W. D. N. C. Weerasiri - 20002033
 ## Tutorial 06
 
 - [Caesar Cipher](tutorial06/caesar.scala)
+
+
+## Tutorial 07
+
+-[Question 1 and 2](tutorial07/q1-2/main.scala)
+-[Question 3 and 4](tutorial07/q3-4/main.scala)
