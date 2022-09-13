@@ -43,3 +43,7 @@ W. D. N. C. Weerasiri - 20002033
 
 -[Question 1 and 2](tutorial07/q1-2/main.scala)
 -[Question 3 and 4](tutorial07/q3-4/main.scala)
+
+## Tutorial 08
+
+-[Question 1](tutorial08/Point/Point.scala)
